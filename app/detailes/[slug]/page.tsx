@@ -1,4 +1,5 @@
-import { getProducts } from '@/app/api/products/route';
+// import { getProducts } from '@/app/api/products/route';
+import getProducts from '@/app/controllers/getProducts';
 import React from 'react';
 
 // Define the type for the product

@@ -19,7 +19,9 @@ const CategoryListing: React.FC<CategoryListingProps> = ({ data }) => {
     <section className="category-listing">
       <div className="section-header">
         <h2>Categories</h2>
-        <h2>Add New Category</h2>
+        <Link href="/create">    
+            <h2>Add New Category</h2>
+          </Link>
       </div>
 
       <div className="grid-col-4">

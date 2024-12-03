@@ -1,0 +1,98 @@
+$product-bg-color: #f7f7f7;
+$primary-color: #3498db;
+$secondary-color: #2c3e50;
+$border-radius: 8px;
+$padding: 15px;
+$input-padding: 10px;
+$input-border-radius: 6px;
+$button-bg-color: #3498db;
+$button-hover-bg-color: #2980b9;
+
+.product-form {
+  background-color: $product-bg-color;
+  padding: $padding;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+
+  .input-group {
+    margin-bottom: 20px;
+
+    label {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      display: block;
+      color: $secondary-color;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+      width: 100%;
+      padding: $input-padding;
+      border: 1px solid #ddd;
+      border-radius: $input-border-radius;
+      font-size: 14px;
+      transition: all 0.3s ease;
+
+      &:focus {
+        border-color: $primary-color;
+        outline: none;
+      }
+    }
+
+    input[type="file"] {
+      border: none;
+      padding: 5px;
+    }
+
+    .file-upload {
+      input[type="file"] {
+        padding: 10px 15px;
+        background-color: #f0f0f0;
+        cursor: pointer;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .image-preview {
+    margin-top: 20px;
+    text-align: center;
+    
+    img {
+      max-width: 150px;
+      max-height: 150px;
+      border-radius: 8px;
+    }
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: $button-bg-color;
+    border: none;
+    border-radius: $input-border-radius;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $button-hover-bg-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .product-form {
+    width: 100%;
+    padding: 20px;
+  }
+}

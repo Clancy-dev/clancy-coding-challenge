@@ -1,10 +1,11 @@
 import React from 'react'
-import { getProducts } from './api/products/route';
-import { getCategories } from './api/categories/route';
-import CategoryListing from './components/CategoryListing';
+// import { getProducts } from './api/products/route';
+// import { getCategories } from './api/categories/route';
+// import CategoryListing from './components/CategoryListing';
 import ProductListing from './components/ProductListing';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import getProducts from './controllers/getProducts';
 // import CategoryListing from '@/components/CategoryListing'; // Ensure this is imported correctly
 // import ProductListing from '@/components/ProductListing'; // Ensure this is imported correctly
 
@@ -26,14 +27,14 @@ interface Product {
 // Define the page component, and make sure it is async for fetching data
 export default async function Page() {
   // Fetch categories and products
-  const categories: Category[] = await getCategories();
+  // const categories: Category[] = await getCategories();
   const products: Product[] = await getProducts();
 
-  // Filtering products based on category_id
-  const allTelevisions = products.filter((product) => product.category_id === 1);
-  const allFridges = products.filter((product) => product.category_id === 2);
-  const allMicrowaves = products.filter((product) => product.category_id === 3);
-  const allLaundryMachines = products.filter((product) => product.category_id === 4);
+  // // Filtering products based on category_id
+  // const allTelevisions = products.filter((product) => product.category_id === 1);
+  // const allFridges = products.filter((product) => product.category_id === 2);
+  // const allMicrowaves = products.filter((product) => product.category_id === 3);
+  // const allLaundryMachines = products.filter((product) => product.category_id === 4);
 
   return (
     <div className="home-page">
@@ -43,16 +44,16 @@ export default async function Page() {
       {/* <a href="./contact">Contact</a> */}
       
       {/* Category Listing */}
-      <CategoryListing data={categories} />
+      {/* <CategoryListing data={categories} /> */}
       
       {/* Product Listings */}
       <ProductListing data={products} title="All Products" headerBg="blue" />
       
       {/* Filtered Product Listings */}
-      <ProductListing data={allTelevisions} title="All Televisions" headerBg="green" />
+      {/* <ProductListing data={allTelevisions} title="All Televisions" headerBg="green" />
       <ProductListing data={allFridges} title="All Fridges" headerBg="purple" />
       <ProductListing data={allMicrowaves} title="All Microwaves" headerBg="black" />
-      <ProductListing data={allLaundryMachines} title="All Laundry Machines" headerBg="grey" />
+      <ProductListing data={allLaundryMachines} title="All Laundry Machines" headerBg="grey" /> */}
     </div>
   );
 }
