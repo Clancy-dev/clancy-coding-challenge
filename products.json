@@ -1,0 +1,256 @@
+[
+    {
+      "id": 101,
+      "category_id": 1,
+      "title": "Samsung 65-Inch 4K UHD Smart TV",
+      "slug": "samsung-65-inch-4k-uhd-smart-tv",
+      "short_description": "Experience stunning 4K UHD picture quality with built-in smart features.",
+      "detailed_description": "The Samsung 65-Inch 4K UHD Smart TV offers breathtaking clarity with four times the resolution of Full HD. With smart capabilities, you can easily stream your favorite content, connect to apps, and use voice control for convenient operation. It also comes with HDR support for enhanced contrast and colors.",
+      "image": "/products/Samsung 65-Inch 4K UHD Smart TV.jfif",
+      "images": [
+        "samsung-65-inch-4k-front.jpg",
+        "samsung-65-inch-4k-side.jpg",
+        "samsung-65-inch-4k-back.jpg"
+      ],
+      "isFeatured": true,
+      "isTrending": true,
+      "brand": "Samsung",
+      "keywords": ["Samsung", "4K UHD", "Smart TV", "HDR", "65 Inch"],
+      "initialPrice": 1200,
+      "currentPrice": 999,
+      "ratings": 4.8
+    },
+    {
+      "id": 102,
+      "category_id": 1,
+      "title": "LG 55-Inch OLED TV with AI ThinQ",
+      "slug": "lg-55-inch-oled-tv-ai-thinq",
+      "short_description": "LG's OLED TV with AI ThinQ delivers perfect blacks and stunning picture quality.",
+      "detailed_description": "Enjoy the ultimate TV viewing experience with LG's 55-Inch OLED TV, featuring perfect blacks, infinite contrast, and over 8 million pixels for a sharper image. Equipped with AI ThinQ, this TV offers voice control and AI-powered optimization for picture and sound. The sleek design adds a modern touch to any room.",
+      "image": "/products/lg-55-inch-oled.jfif",
+      "images": [
+        "lg-55-inch-oled-front.jpg",
+        "lg-55-inch-oled-side.jpg",
+        "lg-55-inch-oled-back.jpg"
+      ],
+      "isFeatured": false,
+      "isTrending": true,
+      "brand": "LG",
+      "keywords": ["LG", "OLED", "AI ThinQ", "Smart TV", "55 Inch"],
+      "initialPrice": 1500,
+      "currentPrice": 1300,
+      "ratings": 4.9
+    },
+    {
+      "id": 103,
+      "category_id": 1,
+      "title": "Sony Bravia 75-Inch 4K Ultra HD TV",
+      "slug": "sony-bravia-75-inch-4k-ultra-hd-tv",
+      "short_description": "Sony Bravia delivers exceptional 4K UHD clarity with advanced motion processing.",
+      "detailed_description": "The Sony Bravia 75-Inch 4K Ultra HD TV combines sharp image quality, vibrant colors, and fast motion processing, making it ideal for sports and action movies. With Android TV, access a wide range of apps and streaming services. The slim, sleek design fits seamlessly into your home theater setup.",
+      "image": "/products/sony-bravia-75-inch.jfif",
+      "images": [
+        "sony-bravia-75-inch-front.jpg",
+        "sony-bravia-75-inch-side.jpg",
+        "sony-bravia-75-inch-back.jpg"
+      ],
+      "isFeatured": true,
+      "isTrending": false,
+      "brand": "Sony",
+      "keywords": ["Sony", "Bravia", "4K UHD", "Android TV", "75 Inch"],
+      "initialPrice": 2000,
+      "currentPrice": 1800,
+      "ratings": 4.7
+    },
+        {
+          "id": 201,
+          "category_id": 2,
+          "title": "LG 687L Side-by-Side Refrigerator",
+          "slug": "lg-687l-side-by-side-refrigerator",
+          "short_description": "Spacious side-by-side fridge with smart cooling and multi-airflow system.",
+          "detailed_description": "The LG 687L Side-by-Side Refrigerator offers ample storage with a modern design and advanced cooling technologies. Featuring LG's Smart Cooling system, this fridge maintains optimal conditions for fresh food. The multi-airflow system ensures even temperature distribution while the water and ice dispenser adds convenience.",
+          "image": "/products/lg-687l-fridge.jfif",
+          "images": [
+            "lg-687l-fridge-front.jpg",
+            "lg-687l-fridge-side.jpg",
+            "lg-687l-fridge-inside.jpg"
+          ],
+          "isFeatured": true,
+          "isTrending": false,
+          "brand": "LG",
+          "keywords": ["LG", "Side-by-Side", "Smart Cooling", "687L", "Refrigerator"],
+          "initialPrice": 1600,
+          "currentPrice": 1500,
+          "ratings": 4.8
+        },
+        {
+          "id": 202,
+          "category_id": 2,
+          "title": "Samsung 500L French Door Refrigerator",
+          "slug": "samsung-500l-french-door-refrigerator",
+          "short_description": "Samsung French Door fridge with digital inverter technology for efficient cooling.",
+          "detailed_description": "The Samsung 500L French Door Refrigerator features a sleek design with a bottom freezer, making it perfect for modern kitchens. With digital inverter technology, this fridge provides consistent cooling while being energy-efficient. The spacious interior and flexible storage options make organizing your groceries simple and efficient.",
+          "image": "/products/samsung-500l-fridge.jfif",
+          "images": [
+            "samsung-500l-fridge-front.jpg",
+            "samsung-500l-fridge-open.jpg",
+            "samsung-500l-fridge-freezer.jpg"
+          ],
+          "isFeatured": true,
+          "isTrending": true,
+          "brand": "Samsung",
+          "keywords": ["Samsung", "French Door", "Digital Inverter", "500L", "Fridge"],
+          "initialPrice": 1400,
+          "currentPrice": 1299,
+          "ratings": 4.7
+        },
+        {
+          "id": 203,
+          "category_id": 2,
+          "title": "Whirlpool 350L Top-Freezer Refrigerator",
+          "slug": "whirlpool-350l-top-freezer-refrigerator",
+          "short_description": "Compact and efficient top-freezer fridge with multi-airflow cooling technology.",
+          "detailed_description": "The Whirlpool 350L Top-Freezer Refrigerator is designed for compact spaces while providing reliable and efficient cooling. With multi-airflow technology, this fridge ensures even cooling throughout the compartments. Its easy-to-use design, with adjustable shelves and a humidity-controlled crisper, offers convenience and functionality.",
+          "image": "/products/whirlpool-350l-fridge.jfif",
+          "images": [
+            "whirlpool-350l-fridge-front.jpg",
+            "whirlpool-350l-fridge-inside.jpg",
+            "whirlpool-350l-fridge-freezer.jpg"
+          ],
+          "isFeatured": false,
+          "isTrending": false,
+          "brand": "Whirlpool",
+          "keywords": ["Whirlpool", "Top-Freezer", "350L", "Multi-Airflow", "Fridge"],
+          "initialPrice": 900,
+          "currentPrice": 850,
+          "ratings": 4.5
+        },
+            {
+              "id": 301,
+              "category_id": 3,
+              "title": "Panasonic 1200W Inverter Microwave Oven",
+              "slug": "panasonic-1200w-inverter-microwave-oven",
+              "short_description": "Powerful 1200W inverter microwave for even cooking and defrosting.",
+              "detailed_description": "The Panasonic 1200W Inverter Microwave Oven delivers fast and even cooking with its inverter technology, ensuring your food is heated or defrosted evenly without overcooking the edges. With 1.2 cu ft capacity, it is perfect for families and offers pre-programmed settings for popcorn, pizza, and more.",
+              "image": "/products/panasonic-1200w-microwave.jfif",
+              "images": [
+                "panasonic-1200w-microwave-front.jpg",
+                "panasonic-1200w-microwave-inside.jpg",
+                "panasonic-1200w-microwave-side.jpg"
+              ],
+              "isFeatured": true,
+              "isTrending": true,
+              "brand": "Panasonic",
+              "keywords": ["Panasonic", "Inverter Microwave", "1200W", "Fast Cooking", "Defrost"],
+              "initialPrice": 200,
+              "currentPrice": 180,
+              "ratings": 4.6
+            },
+            {
+              "id": 302,
+              "category_id": 3,
+              "title": "Samsung 900W Solo Microwave",
+              "slug": "samsung-900w-solo-microwave",
+              "short_description": "Sleek and compact 900W microwave for quick and easy meals.",
+              "detailed_description": "The Samsung 900W Solo Microwave is a compact, efficient kitchen companion designed for quick meal preparations and reheating. It features multiple power levels, a defrost function, and a ceramic interior that's easy to clean. Ideal for small kitchens or as a secondary microwave.",
+              "image": "/products/samsung-900w-solo-microwave.jfif",
+              "images": [
+                "samsung-900w-solo-microwave-front.jpg",
+                "samsung-900w-solo-microwave-inside.jpg",
+                "samsung-900w-solo-microwave-side.jpg"
+              ],
+              "isFeatured": false,
+              "isTrending": true,
+              "brand": "Samsung",
+              "keywords": ["Samsung", "Solo Microwave", "900W", "Compact", "Quick Meals"],
+              "initialPrice": 120,
+              "currentPrice": 110,
+              "ratings": 4.4
+            },
+            {
+              "id": 303,
+              "category_id": 3,
+              "title": "LG NeoChef Smart Inverter Microwave",
+              "slug": "lg-neochef-smart-inverter-microwave",
+              "short_description": "LG Smart Inverter microwave for precise cooking and heating.",
+              "detailed_description": "The LG NeoChef Smart Inverter Microwave offers precise temperature control, making it easier to cook, reheat, and defrost a wide range of foods. With a minimalist design, it fits perfectly in any modern kitchen, while the antibacterial easy-clean interior ensures better hygiene.",
+              "image": "/products/lg-neochef-microwave.jfif",
+              "images": [
+                "lg-neochef-microwave-front.jpg",
+                "lg-neochef-microwave-inside.jpg",
+                "lg-neochef-microwave-side.jpg"
+              ],
+              "isFeatured": true,
+              "isTrending": false,
+              "brand": "LG",
+              "keywords": ["LG", "NeoChef", "Inverter Microwave", "Smart", "Precise Cooking"],
+              "initialPrice": 250,
+              "currentPrice": 220,
+              "ratings": 4.7
+            },
+                {
+                  "id": 401,
+                  "category_id": 4,
+                  "title": "Samsung 9kg Front Load Washing Machine",
+                  "slug": "samsung-9kg-front-load-washing-machine",
+                  "short_description": "Efficient 9kg front load washer with EcoBubble technology for deep cleaning.",
+                  "detailed_description": "The Samsung 9kg Front Load Washing Machine uses EcoBubble technology to deliver powerful cleaning, even at low temperatures. Its energy-efficient design, along with a wide variety of wash programs, ensures a thorough wash for all fabric types. The large drum capacity is perfect for family-sized loads.",
+                  "image": "/products/samsung-9kg-front-load-washer.jfif",
+                  "images": [
+                    "samsung-9kg-front-load-washer-front.jpg",
+                    "samsung-9kg-front-load-washer-side.jpg",
+                    "samsung-9kg-front-load-washer-drum.jpg"
+                  ],
+                  "isFeatured": true,
+                  "isTrending": true,
+                  "brand": "Samsung",
+                  "keywords": ["Samsung", "Front Load", "Washing Machine", "EcoBubble", "9kg"],
+                  "initialPrice": 600,
+                  "currentPrice": 550,
+                  "ratings": 4.7
+                },
+                {
+                  "id": 402,
+                  "category_id": 4,
+                  "title": "LG 7kg Top Load Washing Machine",
+                  "slug": "lg-7kg-top-load-washing-machine",
+                  "short_description": "Compact 7kg top load washer with smart inverter technology for energy efficiency.",
+                  "detailed_description": "The LG 7kg Top Load Washing Machine is designed for smaller households. Featuring smart inverter technology, it offers energy-efficient performance while providing powerful washing. The TurboDrum and Punch+3 function ensure your clothes are washed thoroughly, while the compact design makes it suitable for small spaces.",
+                  "image": "/products/lg-7kg-top-load-washer.jfif",
+                  "images": [
+                    "lg-7kg-top-load-washer-front.jpg",
+                    "lg-7kg-top-load-washer-side.jpg",
+                    "lg-7kg-top-load-washer-inside.jpg"
+                  ],
+                  "isFeatured": false,
+                  "isTrending": true,
+                  "brand": "LG",
+                  "keywords": ["LG", "Top Load", "Washing Machine", "Smart Inverter", "7kg"],
+                  "initialPrice": 400,
+                  "currentPrice": 380,
+                  "ratings": 4.5
+                },
+                {
+                  "id": 403,
+                  "category_id": 4,
+                  "title": "Whirlpool 10kg Front Load Washer Dryer Combo",
+                  "slug": "whirlpool-10kg-front-load-washer-dryer-combo",
+                  "short_description": "All-in-one 10kg front load washer and dryer combo for convenient laundry care.",
+                  "detailed_description": "The Whirlpool 10kg Front Load Washer Dryer Combo combines powerful washing and drying in a single appliance, saving space and time. It features a variety of washing and drying programs for different fabrics, making it perfect for families with busy lifestyles. The large capacity allows for handling large loads, while the advanced sensors ensure optimal drying results.",
+                  "image": "/products/whirlpool-10kg-washer-dryer.jfif",
+                  "images": [
+                    "whirlpool-10kg-washer-dryer-front.jpg",
+                    "whirlpool-10kg-washer-dryer-side.jpg",
+                    "whirlpool-10kg-washer-dryer-drum.jpg"
+                  ],
+                  "isFeatured": true,
+                  "isTrending": false,
+                  "brand": "Whirlpool",
+                  "keywords": ["Whirlpool", "Washer Dryer Combo", "Front Load", "10kg", "Laundry"],
+                  "initialPrice": 900,
+                  "currentPrice": 850,
+                  "ratings": 4.8
+                }
+
+  ]
+  
